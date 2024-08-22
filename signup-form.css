@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 5px var(--primary-color);
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+}
+form {
+    margin-top: 20px;
+}
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+.submit-btn {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    right: 10px;
+}
+
+.submit-btn a {
+    width: 100%;
+    background-color:var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;    
+}
+
+.attach-document{
+    border: solid 2px black;
+    background-color: green;
+    color:white;
+    border-radius: 6px;
+    height: 25px;
+    width: 150px;
+}

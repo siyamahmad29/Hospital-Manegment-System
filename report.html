@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports</title>
+    <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Hospital Admin Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="hospital-dashboard.html">Home</a></li>
+                    <li><a href="manage-doctors.html">Manage Doctors</a></li>
+                    <li><a href="manage-patients.html">Manage Patients</a></li>
+                    <li><a href="manage-appointments.html">Manage Appointments</a></li>
+                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Reports</h2>
+            <div class="report-section">
+                <h3>Monthly Reports</h3>
+                <ul>
+                    <li><a href="#">January 2024</a></li>
+                    <li><a href="#">February 2024</a></li>
+                    <li><a href="#">March 2024</a></li>
+                    <li><a href="#">April 2024</a></li>
+                    <li><a href="#">May 2024</a></li>
+                    <li><a href="#">June 2024</a></li>
+                </ul>
+            </div>
+            <div class="report-section">
+                <h3>Annual Reports</h3>
+                <ul>
+                    <li><a href="#">2023</a></li>
+                    <li><a href="#">2022</a></li>
+                    <li><a href="#">2021</a></li>
+                    <li><a href="#">2020</a></li>
+                </ul>
+            </div>
+            <div class="report-section">
+                <h3>Custom Reports</h3>
+                <form id="custom-report-form">
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date">
+                    <label for="end-date">End Date:</label>
+                    <input type="date" id="end-date" name="end-date">
+                    <button type="submit">Generate Report</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

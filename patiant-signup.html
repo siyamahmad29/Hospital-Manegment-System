@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patiant Signup</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/signup-form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>MANGROVE HEALTHCARE</h2>
+
+        <form id="patient-form" action="#" method="POST">
+            <h3>Patient Signup</h3>
+            <label for="patient-fullname">Full Name:</label>
+            <input type="text" id="patient-fullname" name="patient-fullname" required>
+
+            <label for="patient-dob">Date of Birth:</label>
+            <input type="date" id="patient-dob" name="patient-dob" required>
+
+            <label for="patient-gender">Gender:</label>
+            <select id="patient-gender" name="patient-gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="patient-contact">Contact Number:</label>
+            <input type="text" id="patient-contact" name="patient-contact" required>
+
+            <label for="patient-email">Email Address:</label>
+            <input type="email" id="patient-email" name="patient-email" required>
+
+            <label for="patient-username">Username:</label>
+            <input type="text" id="patient-username" name="patient-username" required>
+
+            <label for="patient-password">Password:</label>
+            <input type="password" id="patient-password" name="patient-password" required>
+
+            <input type="checkbox" id="patient-terms" name="patient-terms" required>
+            <label for="patient-terms">I agree to the terms and conditions.</label>
+
+            <div class="submit-btn">
+                <a href="patient-dashboard.html">Signup as Patient</a>
+            </div>
+        </form>
+        
+        <div>
+            <p style="text-align: center;">Already have an account? <a href="index.html">Login here</a>.</p>
+        </div>
+    </div> 
+</body>
+</html>

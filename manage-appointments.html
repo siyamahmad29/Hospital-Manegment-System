@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Appointments</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/manage-appointments.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Mangrove Healthcare</h1>
+            <nav>
+                <ul>
+                    <li><a href="hospital-dashboard.html">Home</a></li>
+                    <li><a href="manage-doctors.html">Manage Doctors</a></li>
+                    <li><a href="manage-patients.html">Manage Patients</a></li>
+                    <li><a href="manage-appointments.html">Manage Appointments</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Manage Appointments</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Appointment ID</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Doctor</th>
+                        <th>Patient</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>2024-07-01</td>
+                        <td>10:00 AM</td>
+                        <td>Dr. Mohasin</td>
+                        <td>Puja</td>
+                        <td>Scheduled</td>
+                        <td>
+                            <button class="edit-appointment">Edit</button>
+                            <button class="delete-appointment">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>2024-07-15</td>
+                        <td>02:00 PM</td>
+                        <td>Dr. Alauddin</td>
+                        <td>Nobojit Majumder</td>
+                        <td>Scheduled</td>
+                        <td>
+                            <button class="edit-appointment">Edit</button>
+                            <button class="delete-appointment">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>2024-08-10</td>
+                        <td>11:00 AM</td>
+                        <td>Dr. Priya Rani</td>
+                        <td>Shawon Shekh</td>
+                        <td>Completed</td>
+                        <td>
+                            <button class="edit-appointment">Edit</button>
+                            <button class="delete-appointment">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>2024-09-05</td>
+                        <td>01:00 PM</td>
+                        <td>Dr. Mim Payel</td>
+                        <td>Amir Fahad</td>
+                        <td>Cancelled</td>
+                        <td>
+                            <button class="edit-appointment">Edit</button>
+                            <button class="delete-appointment">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>
